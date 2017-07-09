@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F24375C41F1283FC00761A01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F24375C31F1283FC00761A01 /* main.m */; };
+		F24375C71F1283FC00761A01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F24375C61F1283FC00761A01 /* AppDelegate.m */; };
+		F24375CA1F1283FC00761A01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24375C91F1283FC00761A01 /* ViewController.m */; };
+		F24375CD1F1283FC00761A01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24375CB1F1283FC00761A01 /* Main.storyboard */; };
+		F24375CF1F1283FC00761A01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24375CE1F1283FC00761A01 /* Assets.xcassets */; };
+		F24375D21F1283FC00761A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24375D01F1283FC00761A01 /* LaunchScreen.storyboard */; };
+		F24375DD1F1283FC00761A01 /* PGMultifunctionTextFieldViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F24375DC1F1283FC00761A01 /* PGMultifunctionTextFieldViewTests.m */; };
+		F24375E81F1283FC00761A01 /* PGMultifunctionTextFieldViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F24375E71F1283FC00761A01 /* PGMultifunctionTextFieldViewUITests.m */; };
+		F24376151F128DE800761A01 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F24375FB1F128DE800761A01 /* MASCompositeConstraint.m */; };
+		F24376161F128DE800761A01 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F24375FE1F128DE800761A01 /* MASConstraint.m */; };
+		F24376171F128DE800761A01 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F24376001F128DE800761A01 /* MASConstraintMaker.m */; };
+		F24376181F128DE800761A01 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F24376021F128DE800761A01 /* MASLayoutConstraint.m */; };
+		F24376191F128DE800761A01 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F24376061F128DE800761A01 /* MASViewAttribute.m */; };
+		F243761A1F128DE800761A01 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F24376081F128DE800761A01 /* MASViewConstraint.m */; };
+		F243761B1F128DE800761A01 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F243760A1F128DE800761A01 /* NSArray+MASAdditions.m */; };
+		F243761C1F128DE800761A01 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F243760D1F128DE800761A01 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		F243761D1F128DE800761A01 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F243760F1F128DE800761A01 /* View+MASAdditions.m */; };
+		F243761E1F128DE800761A01 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F24376121F128DE800761A01 /* ViewController+MASAdditions.m */; };
+		F2F5C9F01F129E27009FC5A1 /* PGMultifunctionTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F5C9EE1F129E27009FC5A1 /* PGMultifunctionTextFieldView.m */; };
+		F2F5C9F11F129E27009FC5A1 /* PGMultifunctionTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F5C9EF1F129E27009FC5A1 /* PGMultifunctionTextFieldView.xib */; };
+		F2F5C9F41F129FB5009FC5A1 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F5C9F31F129FB5009FC5A1 /* UIImage+Extension.m */; };
+		F2F5C9F71F129FE9009FC5A1 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F5C9F61F129FE9009FC5A1 /* UIButton+Extension.m */; };
+		F2F5C9FB1F12A1BC009FC5A1 /* QLHJMatchTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F5C9FA1F12A1BC009FC5A1 /* QLHJMatchTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F24375D91F1283FC00761A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24375B71F1283FC00761A01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24375BE1F1283FC00761A01;
+			remoteInfo = PGMultifunctionTextFieldView;
+		};
+		F24375E41F1283FC00761A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24375B71F1283FC00761A01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24375BE1F1283FC00761A01;
+			remoteInfo = PGMultifunctionTextFieldView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F24375BF1F1283FC00761A01 /* PGMultifunctionTextFieldView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGMultifunctionTextFieldView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24375C31F1283FC00761A01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F24375C51F1283FC00761A01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F24375C61F1283FC00761A01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F24375C81F1283FC00761A01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F24375C91F1283FC00761A01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F24375CC1F1283FC00761A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F24375CE1F1283FC00761A01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F24375D11F1283FC00761A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F24375D31F1283FC00761A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24375D81F1283FC00761A01 /* PGMultifunctionTextFieldViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PGMultifunctionTextFieldViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24375DC1F1283FC00761A01 /* PGMultifunctionTextFieldViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGMultifunctionTextFieldViewTests.m; sourceTree = "<group>"; };
+		F24375DE1F1283FC00761A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24375E31F1283FC00761A01 /* PGMultifunctionTextFieldViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PGMultifunctionTextFieldViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24375E71F1283FC00761A01 /* PGMultifunctionTextFieldViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGMultifunctionTextFieldViewUITests.m; sourceTree = "<group>"; };
+		F24375E91F1283FC00761A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24375FA1F128DE800761A01 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		F24375FB1F128DE800761A01 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		F24375FC1F128DE800761A01 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		F24375FD1F128DE800761A01 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		F24375FE1F128DE800761A01 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		F24375FF1F128DE800761A01 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		F24376001F128DE800761A01 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		F24376011F128DE800761A01 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		F24376021F128DE800761A01 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		F24376031F128DE800761A01 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		F24376041F128DE800761A01 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		F24376051F128DE800761A01 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		F24376061F128DE800761A01 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		F24376071F128DE800761A01 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		F24376081F128DE800761A01 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		F24376091F128DE800761A01 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		F243760A1F128DE800761A01 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		F243760B1F128DE800761A01 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F243760C1F128DE800761A01 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		F243760D1F128DE800761A01 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		F243760E1F128DE800761A01 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		F243760F1F128DE800761A01 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		F24376101F128DE800761A01 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F24376111F128DE800761A01 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		F24376121F128DE800761A01 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		F2F5C9ED1F129E27009FC5A1 /* PGMultifunctionTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMultifunctionTextFieldView.h; sourceTree = "<group>"; };
+		F2F5C9EE1F129E27009FC5A1 /* PGMultifunctionTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMultifunctionTextFieldView.m; sourceTree = "<group>"; };
+		F2F5C9EF1F129E27009FC5A1 /* PGMultifunctionTextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PGMultifunctionTextFieldView.xib; sourceTree = "<group>"; };
+		F2F5C9F21F129FB5009FC5A1 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		F2F5C9F31F129FB5009FC5A1 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		F2F5C9F51F129FE9009FC5A1 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Extension.h"; path = "Supporting Files/Masonry/UIButton+Extension.h"; sourceTree = "<group>"; };
+		F2F5C9F61F129FE9009FC5A1 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Extension.m"; path = "Supporting Files/Masonry/UIButton+Extension.m"; sourceTree = "<group>"; };
+		F2F5C9F81F12A09E009FC5A1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F2F5C9F91F12A1BC009FC5A1 /* QLHJMatchTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLHJMatchTool.h; sourceTree = "<group>"; };
+		F2F5C9FA1F12A1BC009FC5A1 /* QLHJMatchTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLHJMatchTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F24375BC1F1283FC00761A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24375D51F1283FC00761A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24375E01F1283FC00761A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F24375B61F1283FC00761A01 = {
+			isa = PBXGroup;
+			children = (
+				F24375C11F1283FC00761A01 /* PGMultifunctionTextFieldView */,
+				F24375DB1F1283FC00761A01 /* PGMultifunctionTextFieldViewTests */,
+				F24375E61F1283FC00761A01 /* PGMultifunctionTextFieldViewUITests */,
+				F24375C01F1283FC00761A01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F24375C01F1283FC00761A01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F24375BF1F1283FC00761A01 /* PGMultifunctionTextFieldView.app */,
+				F24375D81F1283FC00761A01 /* PGMultifunctionTextFieldViewTests.xctest */,
+				F24375E31F1283FC00761A01 /* PGMultifunctionTextFieldViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F24375C11F1283FC00761A01 /* PGMultifunctionTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				F24376201F128DEC00761A01 /* PGMultifunctionTextFieldView */,
+				F24375C51F1283FC00761A01 /* AppDelegate.h */,
+				F24375C61F1283FC00761A01 /* AppDelegate.m */,
+				F24375C81F1283FC00761A01 /* ViewController.h */,
+				F24375C91F1283FC00761A01 /* ViewController.m */,
+				F24375CB1F1283FC00761A01 /* Main.storyboard */,
+				F24375CE1F1283FC00761A01 /* Assets.xcassets */,
+				F24375D01F1283FC00761A01 /* LaunchScreen.storyboard */,
+				F24375D31F1283FC00761A01 /* Info.plist */,
+				F24375C21F1283FC00761A01 /* Supporting Files */,
+				F2F5C9F81F12A09E009FC5A1 /* PrefixHeader.pch */,
+			);
+			path = PGMultifunctionTextFieldView;
+			sourceTree = "<group>";
+		};
+		F24375C21F1283FC00761A01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F24375F91F128DE800761A01 /* Masonry */,
+				F2F5C9F21F129FB5009FC5A1 /* UIImage+Extension.h */,
+				F2F5C9F31F129FB5009FC5A1 /* UIImage+Extension.m */,
+				F2F5C9F51F129FE9009FC5A1 /* UIButton+Extension.h */,
+				F2F5C9F61F129FE9009FC5A1 /* UIButton+Extension.m */,
+				F2F5C9F91F12A1BC009FC5A1 /* QLHJMatchTool.h */,
+				F2F5C9FA1F12A1BC009FC5A1 /* QLHJMatchTool.m */,
+				F24375C31F1283FC00761A01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F24375DB1F1283FC00761A01 /* PGMultifunctionTextFieldViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F24375DC1F1283FC00761A01 /* PGMultifunctionTextFieldViewTests.m */,
+				F24375DE1F1283FC00761A01 /* Info.plist */,
+			);
+			path = PGMultifunctionTextFieldViewTests;
+			sourceTree = "<group>";
+		};
+		F24375E61F1283FC00761A01 /* PGMultifunctionTextFieldViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F24375E71F1283FC00761A01 /* PGMultifunctionTextFieldViewUITests.m */,
+				F24375E91F1283FC00761A01 /* Info.plist */,
+			);
+			path = PGMultifunctionTextFieldViewUITests;
+			sourceTree = "<group>";
+		};
+		F24375F91F128DE800761A01 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				F24375FA1F128DE800761A01 /* MASCompositeConstraint.h */,
+				F24375FB1F128DE800761A01 /* MASCompositeConstraint.m */,
+				F24375FC1F128DE800761A01 /* MASConstraint+Private.h */,
+				F24375FD1F128DE800761A01 /* MASConstraint.h */,
+				F24375FE1F128DE800761A01 /* MASConstraint.m */,
+				F24375FF1F128DE800761A01 /* MASConstraintMaker.h */,
+				F24376001F128DE800761A01 /* MASConstraintMaker.m */,
+				F24376011F128DE800761A01 /* MASLayoutConstraint.h */,
+				F24376021F128DE800761A01 /* MASLayoutConstraint.m */,
+				F24376031F128DE800761A01 /* Masonry.h */,
+				F24376041F128DE800761A01 /* MASUtilities.h */,
+				F24376051F128DE800761A01 /* MASViewAttribute.h */,
+				F24376061F128DE800761A01 /* MASViewAttribute.m */,
+				F24376071F128DE800761A01 /* MASViewConstraint.h */,
+				F24376081F128DE800761A01 /* MASViewConstraint.m */,
+				F24376091F128DE800761A01 /* NSArray+MASAdditions.h */,
+				F243760A1F128DE800761A01 /* NSArray+MASAdditions.m */,
+				F243760B1F128DE800761A01 /* NSArray+MASShorthandAdditions.h */,
+				F243760C1F128DE800761A01 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				F243760D1F128DE800761A01 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				F243760E1F128DE800761A01 /* View+MASAdditions.h */,
+				F243760F1F128DE800761A01 /* View+MASAdditions.m */,
+				F24376101F128DE800761A01 /* View+MASShorthandAdditions.h */,
+				F24376111F128DE800761A01 /* ViewController+MASAdditions.h */,
+				F24376121F128DE800761A01 /* ViewController+MASAdditions.m */,
+			);
+			name = Masonry;
+			path = "Supporting Files/Masonry";
+			sourceTree = "<group>";
+		};
+		F24376201F128DEC00761A01 /* PGMultifunctionTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				F2F5C9ED1F129E27009FC5A1 /* PGMultifunctionTextFieldView.h */,
+				F2F5C9EE1F129E27009FC5A1 /* PGMultifunctionTextFieldView.m */,
+				F2F5C9EF1F129E27009FC5A1 /* PGMultifunctionTextFieldView.xib */,
+			);
+			path = PGMultifunctionTextFieldView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F24375BE1F1283FC00761A01 /* PGMultifunctionTextFieldView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24375EC1F1283FC00761A01 /* Build configuration list for PBXNativeTarget "PGMultifunctionTextFieldView" */;
+			buildPhases = (
+				F24375BB1F1283FC00761A01 /* Sources */,
+				F24375BC1F1283FC00761A01 /* Frameworks */,
+				F24375BD1F1283FC00761A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PGMultifunctionTextFieldView;
+			productName = PGMultifunctionTextFieldView;
+			productReference = F24375BF1F1283FC00761A01 /* PGMultifunctionTextFieldView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F24375D71F1283FC00761A01 /* PGMultifunctionTextFieldViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24375EF1F1283FC00761A01 /* Build configuration list for PBXNativeTarget "PGMultifunctionTextFieldViewTests" */;
+			buildPhases = (
+				F24375D41F1283FC00761A01 /* Sources */,
+				F24375D51F1283FC00761A01 /* Frameworks */,
+				F24375D61F1283FC00761A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24375DA1F1283FC00761A01 /* PBXTargetDependency */,
+			);
+			name = PGMultifunctionTextFieldViewTests;
+			productName = PGMultifunctionTextFieldViewTests;
+			productReference = F24375D81F1283FC00761A01 /* PGMultifunctionTextFieldViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F24375E21F1283FC00761A01 /* PGMultifunctionTextFieldViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24375F21F1283FC00761A01 /* Build configuration list for PBXNativeTarget "PGMultifunctionTextFieldViewUITests" */;
+			buildPhases = (
+				F24375DF1F1283FC00761A01 /* Sources */,
+				F24375E01F1283FC00761A01 /* Frameworks */,
+				F24375E11F1283FC00761A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24375E51F1283FC00761A01 /* PBXTargetDependency */,
+			);
+			name = PGMultifunctionTextFieldViewUITests;
+			productName = PGMultifunctionTextFieldViewUITests;
+			productReference = F24375E31F1283FC00761A01 /* PGMultifunctionTextFieldViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F24375B71F1283FC00761A01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					F24375BE1F1283FC00761A01 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F24375D71F1283FC00761A01 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F24375BE1F1283FC00761A01;
+					};
+					F24375E21F1283FC00761A01 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F24375BE1F1283FC00761A01;
+					};
+				};
+			};
+			buildConfigurationList = F24375BA1F1283FC00761A01 /* Build configuration list for PBXProject "PGMultifunctionTextFieldView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F24375B61F1283FC00761A01;
+			productRefGroup = F24375C01F1283FC00761A01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F24375BE1F1283FC00761A01 /* PGMultifunctionTextFieldView */,
+				F24375D71F1283FC00761A01 /* PGMultifunctionTextFieldViewTests */,
+				F24375E21F1283FC00761A01 /* PGMultifunctionTextFieldViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F24375BD1F1283FC00761A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24375D21F1283FC00761A01 /* LaunchScreen.storyboard in Resources */,
+				F24375CF1F1283FC00761A01 /* Assets.xcassets in Resources */,
+				F2F5C9F11F129E27009FC5A1 /* PGMultifunctionTextFieldView.xib in Resources */,
+				F24375CD1F1283FC00761A01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24375D61F1283FC00761A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24375E11F1283FC00761A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F24375BB1F1283FC00761A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F243761C1F128DE800761A01 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F2F5C9F71F129FE9009FC5A1 /* UIButton+Extension.m in Sources */,
+				F2F5C9FB1F12A1BC009FC5A1 /* QLHJMatchTool.m in Sources */,
+				F243761A1F128DE800761A01 /* MASViewConstraint.m in Sources */,
+				F24376151F128DE800761A01 /* MASCompositeConstraint.m in Sources */,
+				F243761B1F128DE800761A01 /* NSArray+MASAdditions.m in Sources */,
+				F24375CA1F1283FC00761A01 /* ViewController.m in Sources */,
+				F24375C71F1283FC00761A01 /* AppDelegate.m in Sources */,
+				F24376181F128DE800761A01 /* MASLayoutConstraint.m in Sources */,
+				F2F5C9F41F129FB5009FC5A1 /* UIImage+Extension.m in Sources */,
+				F2F5C9F01F129E27009FC5A1 /* PGMultifunctionTextFieldView.m in Sources */,
+				F24375C41F1283FC00761A01 /* main.m in Sources */,
+				F243761E1F128DE800761A01 /* ViewController+MASAdditions.m in Sources */,
+				F243761D1F128DE800761A01 /* View+MASAdditions.m in Sources */,
+				F24376191F128DE800761A01 /* MASViewAttribute.m in Sources */,
+				F24376161F128DE800761A01 /* MASConstraint.m in Sources */,
+				F24376171F128DE800761A01 /* MASConstraintMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24375D41F1283FC00761A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24375DD1F1283FC00761A01 /* PGMultifunctionTextFieldViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24375DF1F1283FC00761A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24375E81F1283FC00761A01 /* PGMultifunctionTextFieldViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F24375DA1F1283FC00761A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24375BE1F1283FC00761A01 /* PGMultifunctionTextFieldView */;
+			targetProxy = F24375D91F1283FC00761A01 /* PBXContainerItemProxy */;
+		};
+		F24375E51F1283FC00761A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24375BE1F1283FC00761A01 /* PGMultifunctionTextFieldView */;
+			targetProxy = F24375E41F1283FC00761A01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F24375CB1F1283FC00761A01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F24375CC1F1283FC00761A01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F24375D01F1283FC00761A01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F24375D11F1283FC00761A01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F24375EA1F1283FC00761A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F24375EB1F1283FC00761A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F24375ED1F1283FC00761A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PGMultifunctionTextFieldView/PrefixHeader.pch;
+				INFOPLIST_FILE = PGMultifunctionTextFieldView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bacon.PGMultifunctionTextFieldView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F24375EE1F1283FC00761A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PGMultifunctionTextFieldView/PrefixHeader.pch;
+				INFOPLIST_FILE = PGMultifunctionTextFieldView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bacon.PGMultifunctionTextFieldView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F24375F01F1283FC00761A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PGMultifunctionTextFieldViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bacon.PGMultifunctionTextFieldViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PGMultifunctionTextFieldView.app/PGMultifunctionTextFieldView";
+			};
+			name = Debug;
+		};
+		F24375F11F1283FC00761A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PGMultifunctionTextFieldViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bacon.PGMultifunctionTextFieldViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PGMultifunctionTextFieldView.app/PGMultifunctionTextFieldView";
+			};
+			name = Release;
+		};
+		F24375F31F1283FC00761A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PGMultifunctionTextFieldViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bacon.PGMultifunctionTextFieldViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PGMultifunctionTextFieldView;
+			};
+			name = Debug;
+		};
+		F24375F41F1283FC00761A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PGMultifunctionTextFieldViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bacon.PGMultifunctionTextFieldViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PGMultifunctionTextFieldView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F24375BA1F1283FC00761A01 /* Build configuration list for PBXProject "PGMultifunctionTextFieldView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24375EA1F1283FC00761A01 /* Debug */,
+				F24375EB1F1283FC00761A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24375EC1F1283FC00761A01 /* Build configuration list for PBXNativeTarget "PGMultifunctionTextFieldView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24375ED1F1283FC00761A01 /* Debug */,
+				F24375EE1F1283FC00761A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24375EF1F1283FC00761A01 /* Build configuration list for PBXNativeTarget "PGMultifunctionTextFieldViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24375F01F1283FC00761A01 /* Debug */,
+				F24375F11F1283FC00761A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24375F21F1283FC00761A01 /* Build configuration list for PBXNativeTarget "PGMultifunctionTextFieldViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24375F31F1283FC00761A01 /* Debug */,
+				F24375F41F1283FC00761A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F24375B71F1283FC00761A01 /* Project object */;
+}

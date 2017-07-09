@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  PGMultifunctionTextFieldView
+//
+//  Created by 张培根 on 2017/7/10.
+//
+//
+
+#import "Masonry.h"
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+// 弱引用
+#define PGWeakSelf __weak typeof(self) weakSelf = self
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
