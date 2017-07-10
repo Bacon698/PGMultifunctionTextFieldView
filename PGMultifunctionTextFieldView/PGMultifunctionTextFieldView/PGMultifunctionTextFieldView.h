@@ -11,22 +11,22 @@
 static NSString *iconTextFieldTextChange = @"iconTextFieldTextChange";
 
 typedef NS_ENUM(NSUInteger,textFieldViewTextType) {
-    other = 0,
-    cellphoneNum,
-    letterPassword,
-    numPassword,
-    verificationCode,
-    userName,
-    idCard,
-    bankInfo,
-    bankCard,
-    moneyAmount,
+    other = 0,//只检测是否输入
+    cellphoneNum,//输入类型为手机号
+    letterPassword,//输入类型为带有字母的密码
+    numPassword,//输入类型为数字密码
+    verificationCode,//输入类型为验证码，会自动增加发送验证码按钮，及网络请求
+    userName,//输入类型为姓名
+    idCard,//输入类型为身份证号
+    bankInfo,//输入类型为银行名称
+    bankCard,//输入类型为银行卡号
+    moneyAmount,//输入类型为资金数量
 };
 
 typedef NS_ENUM(NSUInteger, textFieldViewType) {
-    iconView = 0,
-    titleView,
-    nothingView,
+    iconView = 0,//前边显示图片
+    titleView,//前边显示标题
+    nothingView,//什么也没有
 };
 
 typedef void (^bankArrowsActionBlock)();

@@ -76,13 +76,13 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yya-fP-Yfa">
-                    <rect key="frame" x="45" y="0.0" width="328" height="63"/>
+                    <rect key="frame" x="72.5" y="0.0" width="300.5" height="63"/>
                     <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZe-4q-LpO">
-                    <rect key="frame" x="15" y="0.0" width="0.0" height="63"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZe-4q-LpO">
+                    <rect key="frame" x="15" y="0.0" width="37.5" height="63"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
@@ -92,7 +92,7 @@
             <constraints>
                 <constraint firstItem="tZe-4q-LpO" firstAttribute="leading" secondItem="5ng-7I-HKR" secondAttribute="leading" constant="15" id="8Af-TQ-GRb"/>
                 <constraint firstAttribute="trailing" secondItem="m4K-kR-CjI" secondAttribute="trailing" id="DFa-FD-VhX"/>
-                <constraint firstItem="yya-fP-Yfa" firstAttribute="leading" secondItem="tZe-4q-LpO" secondAttribute="trailing" constant="30" id="Ge4-Rm-48B"/>
+                <constraint firstItem="yya-fP-Yfa" firstAttribute="leading" secondItem="tZe-4q-LpO" secondAttribute="trailing" constant="20" id="Ge4-Rm-48B"/>
                 <constraint firstAttribute="trailing" secondItem="yya-fP-Yfa" secondAttribute="trailing" constant="15" id="O42-Fd-BSe"/>
                 <constraint firstItem="yya-fP-Yfa" firstAttribute="top" secondItem="5ng-7I-HKR" secondAttribute="top" id="SQ8-A1-o7K"/>
                 <constraint firstItem="yya-fP-Yfa" firstAttribute="centerY" secondItem="5ng-7I-HKR" secondAttribute="centerY" id="ZSj-fA-KLB"/>
@@ -129,13 +129,6 @@
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J34-4p-atc">
-                    <rect key="frame" x="15" y="21" width="42" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>

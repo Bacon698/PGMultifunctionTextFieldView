@@ -8,7 +8,7 @@
 
 #import "PGMultifunctionTextFieldView.h"
 #import "UIButton+Extension.h"
-#import "QLHJMatchTool.h"
+#import "PGMatchTool.h"
 
 //static int arrayIndex;
 
@@ -199,22 +199,22 @@
     
     switch (type) {
         case cellphoneNum:
-            return [QLHJMatchTool checkMobile:[self inputString]];
+            return [PGMatchTool checkMobile:[self inputString]];
             break;
         case verificationCode:
-            return [QLHJMatchTool checkVerificationCode:[self inputString]];
+            return [PGMatchTool checkVerificationCode:[self inputString]];
             break;
         case letterPassword:
-            return [QLHJMatchTool checkLetterPassword:[self inputString]];
+            return [PGMatchTool checkLetterPassword:[self inputString]];
             break;
         case numPassword:
-            return [QLHJMatchTool checkVerificationCode:[self inputString]];
+            return [PGMatchTool checkVerificationCode:[self inputString]];
             break;
         case userName:
-            return [QLHJMatchTool checkUserName:[self inputString]];
+            return [PGMatchTool checkUserName:[self inputString]];
             break;
         case idCard:
-            return [QLHJMatchTool checkUserIdCard:[self inputString]];
+            return [PGMatchTool checkUserIdCard:[self inputString]];
             break;
         case other:
             return self.textField.text.length>0?YES:NO;

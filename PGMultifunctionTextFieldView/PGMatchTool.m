@@ -1,14 +1,14 @@
 //
-//  QLHJMatchTool.m
+//  PGMatchTool.m
 //  QeelinGold-iOS
 //
 //  Created by MacBook on 2017/5/10.
 //  Copyright © 2017年 chen. All rights reserved.
 //
 
-#import "QLHJMatchTool.h"
+#import "PGMatchTool.h"
 
-@implementation QLHJMatchTool
+@implementation PGMatchTool
 
 + (BOOL)checkMobile:(NSString *)mobile{
     if (mobile.length < 11)

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PGMainMultifunctionTextFieldViewController.h"
 
-@interface PGTwoModeOfLayoutViewController : UIViewController
+@interface PGTwoModeOfLayoutViewController : PGMainMultifunctionTextFieldViewController
 
 @end

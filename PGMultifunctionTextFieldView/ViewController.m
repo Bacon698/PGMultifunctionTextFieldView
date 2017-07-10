@@ -22,14 +22,30 @@ static NSString *mainCellID = @"mainCellID";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"PGMultifunctionTextFieldView";
     
     self.mainTableView.delegate = self;
     self.mainTableView.dataSource = self;
     [self.mainTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:mainCellID];
+    self.mainTableView.tableFooterView = [UITableView new];
     
-    NSArray *array = @[@"frame",@"auto",@"frame"];
+    NSArray *array = @[@{@"id":@"PGThreeStyleViewController",@"text":@"三种显示样式"},
+                       @{@"id":@"PGTwoModeOfLayoutViewController",@"text":@"两种布局方式"},
+                       @{@"id":@"PGMultipleInputTypeViewController",@"text":@"多种输入类型"}];
     self.dataArray = [NSMutableArray arrayWithArray:array];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    id VC = [[NSClassFromString(self.dataArray[indexPath.row][@"id"]) alloc] init];
+    @try {
+        [self.navigationController pushViewController:VC animated:YES];
+    } @catch (NSException *exception) {
+        
+    } @finally {
+        
+    }
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -38,7 +54,7 @@ static NSString *mainCellID = @"mainCellID";
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:mainCellID];
-    cell.textLabel.text = self.dataArray[indexPath.row];
+    cell.textLabel.text = self.dataArray[indexPath.row][@"text"];
     return cell;
 }
 

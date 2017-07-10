@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PGMainMultifunctionTextFieldViewController.h"
 
-@interface PGMultipleInputTypeViewController : UIViewController
+@interface PGMultipleInputTypeViewController : PGMainMultifunctionTextFieldViewController
 
 @end

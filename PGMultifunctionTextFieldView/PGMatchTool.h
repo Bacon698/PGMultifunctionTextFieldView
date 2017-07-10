@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface QLHJMatchTool : NSObject
+@interface PGMatchTool : NSObject
 
 
 /**
