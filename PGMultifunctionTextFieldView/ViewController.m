@@ -29,7 +29,7 @@ static NSString *mainCellID = @"mainCellID";
     [self.mainTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:mainCellID];
     self.mainTableView.tableFooterView = [UITableView new];
     
-    NSArray *array = @[@{@"id":@"PGThreeStyleViewController",@"text":@"三种显示样式"},
+    NSArray *array = @[@{@"id":@"iv",@"text":@"三种显示样式"},
                        @{@"id":@"PGTwoModeOfLayoutViewController",@"text":@"两种布局方式"},
                        @{@"id":@"PGMultipleInputTypeViewController",@"text":@"多种输入类型"}];
     self.dataArray = [NSMutableArray arrayWithArray:array];
@@ -39,11 +39,12 @@ static NSString *mainCellID = @"mainCellID";
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     id VC = [[NSClassFromString(self.dataArray[indexPath.row][@"id"]) alloc] init];
     @try {
+        ((UIViewController *)VC).title = self.dataArray[indexPath.row][@"text"];
         [self.navigationController pushViewController:VC animated:YES];
     } @catch (NSException *exception) {
         
     } @finally {
-        
+        NSLog(@"%s-类名出错",__func__);
     }
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }

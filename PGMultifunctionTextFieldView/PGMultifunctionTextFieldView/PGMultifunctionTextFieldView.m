@@ -360,8 +360,15 @@
 +(PGMultifunctionTextFieldView *)iconView{
     return [[NSBundle mainBundle]loadNibNamed:@"PGMultifunctionTextFieldView" owner:self options:nil].firstObject;
 }
--(void)setIcon:(UIImage *)icon placeholder:(NSString *)placeholder{
-    self.iconImage.image = icon;
+-(void)setImageNamed:(NSString *)imageName placeholder:(NSString *)placeholder{
+    @try {
+        self.iconImage.image = [UIImage imageNamed:imageName];
+    } @catch (NSException *exception) {
+        
+    } @finally {
+        NSLog(@"%s-图片名称有误",__func__);
+    }
+    
     self.textField.placeholder = placeholder;
 }
 
@@ -374,7 +381,7 @@
  */
 -(void)addSelfToView:(UIView *)view withImageNamed:(NSString *)imageName placeholder:(NSString *)placeholder andType:(textFieldViewTextType)textFieldViewTextType{
     
-    [self setIcon:[UIImage imageNamed:imageName] placeholder:placeholder];
+    [self setImageNamed:imageName placeholder:placeholder];
     [self addToView:view];
      self.textFieldViewTextType = textFieldViewTextType;
     

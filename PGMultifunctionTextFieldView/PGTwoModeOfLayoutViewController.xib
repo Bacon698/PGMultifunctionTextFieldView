@@ -11,6 +11,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PGTwoModeOfLayoutViewController">
             <connections>
+                <outlet property="IBIconView" destination="mLI-3O-kCP" id="T0a-vB-MbD"/>
+                <outlet property="IBNothingView" destination="BbT-PB-3bh" id="8x0-HN-UJi"/>
+                <outlet property="IBTitleView" destination="eBO-94-BLy" id="rnC-FF-2yw"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -26,11 +29,31 @@
                         <constraint firstAttribute="height" constant="45" id="VnD-z7-UZs"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBO-94-BLy">
+                    <rect key="frame" x="0.0" y="189" width="375" height="45"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="djo-bo-B9k"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BbT-PB-3bh">
+                    <rect key="frame" x="0.0" y="304" width="375" height="45"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="ING-38-Kwx"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="mLI-3O-kCP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ARh-Ah-qL2"/>
+                <constraint firstAttribute="trailing" secondItem="BbT-PB-3bh" secondAttribute="trailing" id="H9B-Jd-bzI"/>
+                <constraint firstItem="BbT-PB-3bh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Tjb-9k-yG5"/>
+                <constraint firstItem="BbT-PB-3bh" firstAttribute="top" secondItem="eBO-94-BLy" secondAttribute="bottom" constant="70" id="WGF-wT-UGz"/>
+                <constraint firstItem="eBO-94-BLy" firstAttribute="top" secondItem="mLI-3O-kCP" secondAttribute="bottom" constant="70" id="bRE-wf-xYO"/>
                 <constraint firstAttribute="trailing" secondItem="mLI-3O-kCP" secondAttribute="trailing" id="eck-sl-oen"/>
+                <constraint firstItem="eBO-94-BLy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="f3d-vV-h0j"/>
+                <constraint firstAttribute="trailing" secondItem="eBO-94-BLy" secondAttribute="trailing" id="mwD-el-6OZ"/>
                 <constraint firstItem="mLI-3O-kCP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="ucQ-Ze-tpO"/>
             </constraints>
         </view>

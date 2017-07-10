@@ -54,7 +54,7 @@ typedef void (^bankArrowsActionBlock)();
 #pragma mark  ——————带有icon的textfield———————
 //初始化 带有icon的textfield
 +(PGMultifunctionTextFieldView *)iconView;
--(void)setIcon:(UIImage *)icon placeholder:(NSString *)placeholder;
+-(void)setImageNamed:(NSString *)imageName placeholder:(NSString *)placeholder;
 
 /**
  添加到某个View上，用于xib
