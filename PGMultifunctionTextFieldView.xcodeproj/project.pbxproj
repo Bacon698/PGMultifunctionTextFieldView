@@ -30,6 +30,13 @@
 		F2F5C9F41F129FB5009FC5A1 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F5C9F31F129FB5009FC5A1 /* UIImage+Extension.m */; };
 		F2F5C9F71F129FE9009FC5A1 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F5C9F61F129FE9009FC5A1 /* UIButton+Extension.m */; };
 		F2F5C9FB1F12A1BC009FC5A1 /* QLHJMatchTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F5C9FA1F12A1BC009FC5A1 /* QLHJMatchTool.m */; };
+		F2F5CA461F133C02009FC5A1 /* PGThreeStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F5CA441F133C02009FC5A1 /* PGThreeStyleViewController.m */; };
+		F2F5CA471F133C02009FC5A1 /* PGThreeStyleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F5CA451F133C02009FC5A1 /* PGThreeStyleViewController.xib */; };
+		F2F5CA4A1F133C2D009FC5A1 /* PGMainMultifunctionTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F5CA491F133C2C009FC5A1 /* PGMainMultifunctionTextFieldViewController.m */; };
+		F2F5CA4E1F13406C009FC5A1 /* PGTwoModeOfLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F5CA4C1F13406C009FC5A1 /* PGTwoModeOfLayoutViewController.m */; };
+		F2F5CA4F1F13406C009FC5A1 /* PGTwoModeOfLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F5CA4D1F13406C009FC5A1 /* PGTwoModeOfLayoutViewController.xib */; };
+		F2F5CA531F1340AB009FC5A1 /* PGMultipleInputTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F5CA511F1340AB009FC5A1 /* PGMultipleInputTypeViewController.m */; };
+		F2F5CA541F1340AB009FC5A1 /* PGMultipleInputTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F5CA521F1340AB009FC5A1 /* PGMultipleInputTypeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +108,17 @@
 		F2F5C9F81F12A09E009FC5A1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F2F5C9F91F12A1BC009FC5A1 /* QLHJMatchTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLHJMatchTool.h; sourceTree = "<group>"; };
 		F2F5C9FA1F12A1BC009FC5A1 /* QLHJMatchTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLHJMatchTool.m; sourceTree = "<group>"; };
+		F2F5CA431F133C02009FC5A1 /* PGThreeStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGThreeStyleViewController.h; sourceTree = "<group>"; };
+		F2F5CA441F133C02009FC5A1 /* PGThreeStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGThreeStyleViewController.m; sourceTree = "<group>"; };
+		F2F5CA451F133C02009FC5A1 /* PGThreeStyleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PGThreeStyleViewController.xib; sourceTree = "<group>"; };
+		F2F5CA481F133C2C009FC5A1 /* PGMainMultifunctionTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMainMultifunctionTextFieldViewController.h; sourceTree = "<group>"; };
+		F2F5CA491F133C2C009FC5A1 /* PGMainMultifunctionTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMainMultifunctionTextFieldViewController.m; sourceTree = "<group>"; };
+		F2F5CA4B1F13406C009FC5A1 /* PGTwoModeOfLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGTwoModeOfLayoutViewController.h; sourceTree = "<group>"; };
+		F2F5CA4C1F13406C009FC5A1 /* PGTwoModeOfLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGTwoModeOfLayoutViewController.m; sourceTree = "<group>"; };
+		F2F5CA4D1F13406C009FC5A1 /* PGTwoModeOfLayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PGTwoModeOfLayoutViewController.xib; sourceTree = "<group>"; };
+		F2F5CA501F1340AB009FC5A1 /* PGMultipleInputTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMultipleInputTypeViewController.h; sourceTree = "<group>"; };
+		F2F5CA511F1340AB009FC5A1 /* PGMultipleInputTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMultipleInputTypeViewController.m; sourceTree = "<group>"; };
+		F2F5CA521F1340AB009FC5A1 /* PGMultipleInputTypeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PGMultipleInputTypeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +180,17 @@
 				F24375D31F1283FC00761A01 /* Info.plist */,
 				F24375C21F1283FC00761A01 /* Supporting Files */,
 				F2F5C9F81F12A09E009FC5A1 /* PrefixHeader.pch */,
+				F2F5CA481F133C2C009FC5A1 /* PGMainMultifunctionTextFieldViewController.h */,
+				F2F5CA491F133C2C009FC5A1 /* PGMainMultifunctionTextFieldViewController.m */,
+				F2F5CA431F133C02009FC5A1 /* PGThreeStyleViewController.h */,
+				F2F5CA441F133C02009FC5A1 /* PGThreeStyleViewController.m */,
+				F2F5CA451F133C02009FC5A1 /* PGThreeStyleViewController.xib */,
+				F2F5CA4B1F13406C009FC5A1 /* PGTwoModeOfLayoutViewController.h */,
+				F2F5CA4C1F13406C009FC5A1 /* PGTwoModeOfLayoutViewController.m */,
+				F2F5CA4D1F13406C009FC5A1 /* PGTwoModeOfLayoutViewController.xib */,
+				F2F5CA501F1340AB009FC5A1 /* PGMultipleInputTypeViewController.h */,
+				F2F5CA511F1340AB009FC5A1 /* PGMultipleInputTypeViewController.m */,
+				F2F5CA521F1340AB009FC5A1 /* PGMultipleInputTypeViewController.xib */,
 			);
 			path = PGMultifunctionTextFieldView;
 			sourceTree = "<group>";
@@ -304,6 +333,7 @@
 		F24375B71F1283FC00761A01 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PG;
 				LastUpgradeCheck = 0830;
 				TargetAttributes = {
 					F24375BE1F1283FC00761A01 = {
@@ -347,9 +377,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F5CA4F1F13406C009FC5A1 /* PGTwoModeOfLayoutViewController.xib in Resources */,
+				F2F5CA471F133C02009FC5A1 /* PGThreeStyleViewController.xib in Resources */,
 				F24375D21F1283FC00761A01 /* LaunchScreen.storyboard in Resources */,
 				F24375CF1F1283FC00761A01 /* Assets.xcassets in Resources */,
 				F2F5C9F11F129E27009FC5A1 /* PGMultifunctionTextFieldView.xib in Resources */,
+				F2F5CA541F1340AB009FC5A1 /* PGMultipleInputTypeViewController.xib in Resources */,
 				F24375CD1F1283FC00761A01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F243761C1F128DE800761A01 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F2F5CA531F1340AB009FC5A1 /* PGMultipleInputTypeViewController.m in Sources */,
 				F2F5C9F71F129FE9009FC5A1 /* UIButton+Extension.m in Sources */,
 				F2F5C9FB1F12A1BC009FC5A1 /* QLHJMatchTool.m in Sources */,
 				F243761A1F128DE800761A01 /* MASViewConstraint.m in Sources */,
@@ -391,6 +425,9 @@
 				F243761D1F128DE800761A01 /* View+MASAdditions.m in Sources */,
 				F24376191F128DE800761A01 /* MASViewAttribute.m in Sources */,
 				F24376161F128DE800761A01 /* MASConstraint.m in Sources */,
+				F2F5CA4E1F13406C009FC5A1 /* PGTwoModeOfLayoutViewController.m in Sources */,
+				F2F5CA461F133C02009FC5A1 /* PGThreeStyleViewController.m in Sources */,
+				F2F5CA4A1F133C2D009FC5A1 /* PGMainMultifunctionTextFieldViewController.m in Sources */,
 				F24376171F128DE800761A01 /* MASConstraintMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
