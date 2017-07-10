@@ -147,6 +147,9 @@
 
     if ([self.verifycodeDelegate respondsToSelector:@selector(verifyCallphoneNum)]) {
         if (![self.verifycodeDelegate verifyCallphoneNum]) {
+            if ([self.verifycodeDelegate respondsToSelector:@selector(verifyCallphoneNumErrorAction)]) {
+                [self.verifycodeDelegate verifyCallphoneNumErrorAction];
+            }
             return;
         }
     }
@@ -224,6 +227,10 @@
             break;
     }
     
+}
+
+-(BOOL)checkTextWithCurrentType{
+    return [self checkTextWithType:self.textFieldViewTextType];
 }
 
 -(void)showCleanTextButton{

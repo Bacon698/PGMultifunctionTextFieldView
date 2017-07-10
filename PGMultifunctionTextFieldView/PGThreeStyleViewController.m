@@ -84,6 +84,19 @@
     [self.nothingTextFieldB hiddenLine];
 }
 
+#pragma mark  ---------PGMultifunctionTextFieldViewVerifyButtonDelegate-------
+-(BOOL)verifyCallphoneNum{
+    return [self.titleTextFieldA checkTextWithType:cellphoneNum];
+}
+
+-(void)verifyCallphoneNumErrorAction{
+    [self showAlertWithText:@"手机号格式有误"];
+}
+
+-(void)requestVerificationCode{
+    [self showAlertWithText:@"验证码已发出"];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

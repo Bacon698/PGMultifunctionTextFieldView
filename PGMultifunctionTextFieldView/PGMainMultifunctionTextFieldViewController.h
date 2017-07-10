@@ -11,4 +11,6 @@
 
 @interface PGMainMultifunctionTextFieldViewController : UIViewController
 
+-(void)showAlertWithText:(NSString *)alertTitle;
+
 @end

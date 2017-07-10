@@ -101,7 +101,7 @@
 #pragma 正则验证码，6位数字
 + (BOOL)checkVerificationCode : (NSString *) code
 {
-    NSString *pattern = @"^[0-9]{4}";
+    NSString *pattern = @"^[0-9]{6}";
     NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", pattern];
     BOOL isMatch = [pred evaluateWithObject:code];
     return isMatch;

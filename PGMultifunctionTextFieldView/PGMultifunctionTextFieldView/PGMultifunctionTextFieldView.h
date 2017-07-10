@@ -46,6 +46,10 @@ typedef void (^bankArrowsActionBlock)();
  */
 @optional
 -(BOOL)verifyCallphoneNum;
+/**
+ 验证手机号错误后时执行该方法
+ */
+-(void)verifyCallphoneNumErrorAction;
 
 @end
 
@@ -139,6 +143,10 @@ typedef void (^bankArrowsActionBlock)();
  检查用户输入的内容是否和指定类型相符
  */
 -(BOOL)checkTextWithType:(textFieldViewTextType)textType;
+/**
+ 检查用户输入的内容是否和当前类型相符
+ */
+-(BOOL)checkTextWithCurrentType;
 
 @property (assign,nonatomic) id<PGMultifunctionTextFieldViewVerifyButtonDelegate> verifycodeDelegate;
 
