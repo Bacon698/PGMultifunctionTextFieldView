@@ -257,7 +257,7 @@
     if (self.textField.text.length > 0) {
         [self showCleanTextButton];
     }
-    [[NSNotificationCenter defaultCenter] postNotificationName:iconTextFieldTextChange object:nil];
+    [[NSNotificationCenter defaultCenter] postNotificationName:PGMultifunctionTextFieldViewTextChange object:nil];
 }
 
 // textFiled的代理方法 用来把银行卡号按照每4位分隔

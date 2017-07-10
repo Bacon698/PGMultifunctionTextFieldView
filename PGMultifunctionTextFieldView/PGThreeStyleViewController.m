@@ -54,7 +54,6 @@
     self.iconTextFieldA = [PGMultifunctionTextFieldView iconView];
     [self.iconTextFieldA addSelfToView:self.iconViewA withImageNamed:@"user_icon" placeholder:@"请使用手机号登录"];
     [self.iconTextFieldA setTextFieldViewTextType:cellphoneNum];
-    [self.iconTextFieldA setKeyboardType:UIKeyboardTypeNumberPad];
     
     self.iconTextFieldB = [PGMultifunctionTextFieldView iconView];
     [self.iconTextFieldB addSelfToView:self.iconViewB withImageNamed:@"password_icon" placeholder:@"请输入登录密码"];

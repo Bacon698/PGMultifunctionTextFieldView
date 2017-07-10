@@ -15,10 +15,11 @@
 {
     self = [super initWithCoder:coder];
     if (self) {
-        [self setBackgroundImage:[UIImage imageWithColor:[UIColor lightGrayColor]] forState:UIControlStateNormal];
-        [self setBackgroundImage:[UIImage imageWithColor:[UIColor orangeColor]] forState:UIControlStateDisabled];
+        [self setBackgroundImage:[UIImage imageWithColor:[UIColor orangeColor]] forState:UIControlStateNormal];
+        [self setBackgroundImage:[UIImage imageWithColor:[UIColor lightGrayColor]] forState:UIControlStateDisabled];
         [self setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [self setTitleColor:[UIColor whiteColor] forState:UIControlStateDisabled];
+        self.enabled = NO;
         self.titleLabel.font = [UIFont systemFontOfSize:16];
         self.clipsToBounds=YES;
         self.layer.cornerRadius=3;

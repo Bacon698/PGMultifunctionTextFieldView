@@ -29,7 +29,7 @@ static NSString *mainCellID = @"mainCellID";
     [self.mainTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:mainCellID];
     self.mainTableView.tableFooterView = [UITableView new];
     
-    NSArray *array = @[@{@"id":@"iv",@"text":@"三种显示样式"},
+    NSArray *array = @[@{@"id":@"PGThreeStyleViewController",@"text":@"三种显示样式"},
                        @{@"id":@"PGTwoModeOfLayoutViewController",@"text":@"两种布局方式"},
                        @{@"id":@"PGMultipleInputTypeViewController",@"text":@"多种输入类型"}];
     self.dataArray = [NSMutableArray arrayWithArray:array];

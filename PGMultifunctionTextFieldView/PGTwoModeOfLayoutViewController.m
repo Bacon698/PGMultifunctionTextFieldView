@@ -39,7 +39,6 @@
     self.IBIconTextFieldView = [PGMultifunctionTextFieldView iconView];
     [self.IBIconTextFieldView addSelfToView:self.IBIconView withImageNamed:@"user_icon" placeholder:@"我是用Xib布局的"];
     [self.IBIconTextFieldView setTextFieldViewTextType:cellphoneNum];
-    [self.IBIconTextFieldView setKeyboardType:UIKeyboardTypeNumberPad];
     [self.IBIconTextFieldView hiddenLine];
     
     self.codeIconTextFieldView = [PGMultifunctionTextFieldView iconView];

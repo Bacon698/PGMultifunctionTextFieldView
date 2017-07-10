@@ -8,7 +8,7 @@
 //// 弱引用
 //#define PGWeakSelf __weak typeof(self) weakSelf = self
 
-static NSString *iconTextFieldTextChange = @"iconTextFieldTextChange";
+static NSString *PGMultifunctionTextFieldViewTextChange = @"PGMultifunctionTextFieldViewTextChange";
 
 typedef NS_ENUM(NSUInteger,textFieldViewTextType) {
     other = 0,//只检测是否输入
