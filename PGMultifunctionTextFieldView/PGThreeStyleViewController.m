@@ -83,6 +83,7 @@
  生成前边什么也没有的textFieldView
  */
 -(void)setUpNothingView{
+    //用户输入内容为手机号和银行卡号是，会自动为输入内容添加空格
     self.nothingTextFieldA = [PGMultifunctionTextFieldView nothingView];
     [self.nothingTextFieldA addSelfToView:self.nothingViewA withPlaceholder:@"请输入手机号"];
     [self.nothingTextFieldA setTextFieldViewTextType:cellphoneNum];

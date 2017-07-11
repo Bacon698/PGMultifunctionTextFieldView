@@ -27,6 +27,7 @@ static NSString *mainCellID = @"mainCellID";
     self.mainTableView.delegate = self;
     self.mainTableView.dataSource = self;
     [self.mainTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:mainCellID];
+    self.mainTableView.tableHeaderView = [[UINib nibWithNibName:@"PGMainHeaderView" bundle:nil] instantiateWithOwner:self options:nil].firstObject;
     self.mainTableView.tableFooterView = [UITableView new];
     
     NSArray *array = @[@{@"id":@"PGThreeStyleViewController",@"text":@"三种显示样式"},

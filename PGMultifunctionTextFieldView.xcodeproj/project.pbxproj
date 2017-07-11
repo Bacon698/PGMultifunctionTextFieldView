@@ -25,6 +25,8 @@
 		F243761C1F128DE800761A01 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F243760D1F128DE800761A01 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		F243761D1F128DE800761A01 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F243760F1F128DE800761A01 /* View+MASAdditions.m */; };
 		F243761E1F128DE800761A01 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F24376121F128DE800761A01 /* ViewController+MASAdditions.m */; };
+		F27B5AA01F14B675002EE837 /* PGMainHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F27B5A9F1F14B675002EE837 /* PGMainHeaderView.m */; };
+		F27B5AA21F14B692002EE837 /* PGMainHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F27B5AA11F14B692002EE837 /* PGMainHeaderView.xib */; };
 		F28080D21F13436C00A3F0DE /* PGXibNextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F28080D01F13436C00A3F0DE /* PGXibNextButton.m */; };
 		F28080FA1F13EC4E00A3F0DE /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = F28080D71F13EC4E00A3F0DE /* IQNSArray+Sort.m */; };
 		F28080FB1F13EC4E00A3F0DE /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F28080D91F13EC4E00A3F0DE /* IQUIScrollView+Additions.m */; };
@@ -115,6 +117,9 @@
 		F24376101F128DE800761A01 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		F24376111F128DE800761A01 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		F24376121F128DE800761A01 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		F27B5A9E1F14B675002EE837 /* PGMainHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMainHeaderView.h; sourceTree = "<group>"; };
+		F27B5A9F1F14B675002EE837 /* PGMainHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMainHeaderView.m; sourceTree = "<group>"; };
+		F27B5AA11F14B692002EE837 /* PGMainHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PGMainHeaderView.xib; sourceTree = "<group>"; };
 		F28080CF1F13436C00A3F0DE /* PGXibNextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGXibNextButton.h; sourceTree = "<group>"; };
 		F28080D01F13436C00A3F0DE /* PGXibNextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGXibNextButton.m; sourceTree = "<group>"; };
 		F28080D61F13EC4E00A3F0DE /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
@@ -337,6 +342,9 @@
 			children = (
 				F28080CF1F13436C00A3F0DE /* PGXibNextButton.h */,
 				F28080D01F13436C00A3F0DE /* PGXibNextButton.m */,
+				F27B5A9E1F14B675002EE837 /* PGMainHeaderView.h */,
+				F27B5A9F1F14B675002EE837 /* PGMainHeaderView.m */,
+				F27B5AA11F14B692002EE837 /* PGMainHeaderView.xib */,
 			);
 			name = Xib;
 			sourceTree = "<group>";
@@ -538,6 +546,7 @@
 				F2F5CA471F133C02009FC5A1 /* PGThreeStyleViewController.xib in Resources */,
 				F24375D21F1283FC00761A01 /* LaunchScreen.storyboard in Resources */,
 				F24375CF1F1283FC00761A01 /* Assets.xcassets in Resources */,
+				F27B5AA21F14B692002EE837 /* PGMainHeaderView.xib in Resources */,
 				F2F5C9F11F129E27009FC5A1 /* PGMultifunctionTextFieldView.xib in Resources */,
 				F2F5CA541F1340AB009FC5A1 /* PGMultipleInputTypeViewController.xib in Resources */,
 				F28081071F13EC4E00A3F0DE /* IQKeyboardManager.bundle in Resources */,
@@ -573,6 +582,7 @@
 				F28080FD1F13EC4E00A3F0DE /* IQUIView+Hierarchy.m in Sources */,
 				F2F5C9FB1F12A1BC009FC5A1 /* PGMatchTool.m in Sources */,
 				F28081031F13EC4E00A3F0DE /* IQBarButtonItem.m in Sources */,
+				F27B5AA01F14B675002EE837 /* PGMainHeaderView.m in Sources */,
 				F28080FA1F13EC4E00A3F0DE /* IQNSArray+Sort.m in Sources */,
 				F243761A1F128DE800761A01 /* MASViewConstraint.m in Sources */,
 				F24376151F128DE800761A01 /* MASCompositeConstraint.m in Sources */,
