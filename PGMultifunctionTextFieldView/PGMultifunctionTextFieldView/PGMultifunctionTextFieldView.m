@@ -373,7 +373,7 @@
     } @catch (NSException *exception) {
         
     } @finally {
-        NSLog(@"%s-图片名称有误",__func__);
+        
     }
     
     self.textField.placeholder = placeholder;

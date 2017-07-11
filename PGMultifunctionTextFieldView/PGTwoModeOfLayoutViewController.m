@@ -35,12 +35,19 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+/**
+ 生成前边是图标的textFieldView
+ */
 -(void)setUpIconView{
+    //每种样式都提供两种方法进行布局
+    
+    //可以使用xib进行布局，先定位好一个View，然后将TextFiledView添加到次view上
     self.IBIconTextFieldView = [PGMultifunctionTextFieldView iconView];
     [self.IBIconTextFieldView addSelfToView:self.IBIconView withImageNamed:@"user_icon" placeholder:@"我是用Xib布局的"];
     [self.IBIconTextFieldView setTextFieldViewTextType:cellphoneNum];
     [self.IBIconTextFieldView hiddenLine];
     
+    //也可以使用代码进行布局，frame和AutoLayout，皆可
     self.codeIconTextFieldView = [PGMultifunctionTextFieldView iconView];
     [self.codeIconTextFieldView setImageNamed:@"user_icon" placeholder:@"我是用代码布局的"];
     self.codeIconTextFieldView.textFieldViewTextType = cellphoneNum;
@@ -54,6 +61,9 @@
     }];
 }
 
+/**
+ 生成前边是标题文字的textFieldView
+ */
 -(void)setUpTitleView{
     self.IBTitleTextFieldView = [PGMultifunctionTextFieldView titleView];
     [self.IBTitleTextFieldView addSelfToView:self.IBTitleView withTitle:@"手机号"  placeholder:@"我是用Xib布局的"];
@@ -73,6 +83,9 @@
     }];
 }
 
+/**
+ 生成前边什么也没有的textFieldView
+ */
 -(void)setUpNothingView{
     self.IBNothingTextFieldView = [PGMultifunctionTextFieldView nothingView];
     [self.IBNothingTextFieldView addSelfToView:self.IBNothingView withPlaceholder:@"我是用Xib布局的"];

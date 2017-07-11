@@ -44,7 +44,7 @@ static NSString *mainCellID = @"mainCellID";
     } @catch (NSException *exception) {
         
     } @finally {
-        NSLog(@"%s-类名出错",__func__);
+        
     }
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
