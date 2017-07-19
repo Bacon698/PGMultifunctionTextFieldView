@@ -56,16 +56,6 @@ typedef void (^ImmediateActionBlock)(UIButton *button);
 
 
 /**
- 下一步按钮
-
- @param titleStr <#titleStr description#>
- @param actionBlock <#actionBlock description#>
- @return <#return value description#>
- */
-+ (UIButton *)createImportantBigBtnWithTitle:(NSString *)titleStr actionBlock:(ActionBlock)actionBlock;
-
-
-/**
  创建一个普通的button，只有文字，无其它的任何样式
 
  @param titleStr 文字
